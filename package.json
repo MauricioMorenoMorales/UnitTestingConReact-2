@@ -60,6 +60,7 @@
     "eslint-plugin-react": "^7.14.3",
     "install": "^0.13.0",
     "jest": "^26.6.3",
+    "jest-fetch-mock": "^3.0.3",
     "prettier": "^1.19.1",
     "react-test-renderer": "^16.14.0",
     "webpack-dev-server": "^3.9.0"
@@ -69,6 +70,7 @@
   },
   "homepage": "https://github.com/gndx/platzi-store/#readme",
   "jest": {
+    "verbose": true,
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
     ],
